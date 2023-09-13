@@ -1,5 +1,5 @@
 import './index.scss'
-import logo from '../../../assets/images/code.jpg' 
+import logo from '../../../assets/images/Logo.jpeg' 
 
 
 

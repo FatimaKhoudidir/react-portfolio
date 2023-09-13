@@ -1,11 +1,22 @@
 .nav-bar{
-  background: #14071a; 
-  width: 60px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 3;
-  min-height: 500px; 
+    background: rgba(255, 255, 255, 0.096);
+    box-shadow: 0 8px 32px 0 #712f7e67;
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius:  0px 250px 250px 0px ;
+    border: 1px  rgba(183, 109, 226, 0.37);
+    transition: background box-shadow 0.4s ease-in-out;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px; 
+
+    &:hover {
+      background:#17071a; 
+      box-shadow: none;
+    }
 
   .logo{
     display: block;
@@ -13,11 +24,11 @@
   
   img {
     display: block;
-    margin: 8px auto;
-    width: 40px;
+    margin: 10px auto;
+    width: 26px;
     height: auto;
     &.sub-logo{
-      width: 50px;
+      width: 40px;
         
     }
   }
