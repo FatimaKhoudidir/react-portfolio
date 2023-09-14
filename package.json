@@ -1,4 +1,5 @@
 {
+  "proxy":" http://localhost:3000",
   "homepage": "https://fatimakhoudidir.github.io/react-portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
