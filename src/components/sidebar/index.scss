@@ -1,11 +1,11 @@
 .nav-bar{
-    background: rgba(255, 255, 255, 0.096);
-    box-shadow: 0 8px 32px 0 #712f7e67;
-    backdrop-filter: blur( 2px );
-    -webkit-backdrop-filter: blur( 2px );
-    border-radius:  0px 250px 250px 0px ;
-    border: 1px  rgba(183, 109, 226, 0.37);
-    transition: background box-shadow 0.4s ease-in-out;
+    /* // background: rgba(255, 255, 255, 0.082);
+    // box-shadow: 0 8px 32px 0 #655c83a1;
+    // backdrop-filter: blur( 2px );
+    // -webkit-backdrop-filter: blur( 2px );
+    // // border-radius:  0px 250px 250px 0px ;
+    // border: 1px  rgba(183, 109, 226, 0);
+    // transition: background box-shadow 0.4s ease-in-out; */
     width: 60px;
     height: 100%;
     position: absolute;
@@ -14,7 +14,7 @@
     min-height: 500px; 
 
     &:hover {
-      background:#17071a; 
+      background:#473E65; 
       box-shadow: none;
     }
 
@@ -43,7 +43,7 @@ nav {
   width: 100%;
   a{
      font-size: 22px;
-     color:#FF5F9E ;
+     color:#F2926F ;
      display: block;
      line-height: 51px;
      height: 51px;
@@ -53,7 +53,7 @@ nav {
         transition: all 0.3s ease-out;
      }
      &:hover{
-        color:#E90064;
+        color:#EACAD1;
         svg{
             opacity: 0;
         }
@@ -101,7 +101,7 @@ nav {
   }
   a.active{
     svg{
-    color:#806491;
+    color:#EACAD1;
   }
 }
 }
@@ -121,7 +121,7 @@ ul{
       font-size: 15px;
       line-height: 16px;
       &:hover svg {
-        color: #B3005E;
+        color: #EACAD1;
 
       }
     }

@@ -1,10 +1,11 @@
 import AnimatedLetters from "../AnimatedLetters"
 import './index.scss'
 import Loader from 'react-loaders'
+import Stars from './Stars'
 import { useEffect, useState } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
-import {faCss3, faJava, faReact,faHtml5, faGitAlt, faNode} from '@fortawesome/free-brands-svg-icons'
+import {faJava, faReact,faHtml5, faGitAlt, faNodeJs, faCss3Alt} from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
     const[letterClass,setLetterClass]=useState('text-animate')
@@ -36,22 +37,23 @@ const About = () => {
                 I am committed to staying at the forefront of the ever-evolving tech landscape
                  and thrive on the opportunity to apply my knowledge to real-world projects.
                 </p>
-                <p>
+                {/* <p>
                 I believe in the power of innovation and the potential of technology to drive positive change.
                  I am excited to contribute my skills, creativity,
                   and determination to a dynamic team, 
                   and I look forward to taking on new challenges and making a meaningful impact in the world of technology
-                </p>
+                </p> */}
             </div>
 
             <div className='stage-cube-cont'>
+                 <Stars/>
                 <div className='cubespinner'>
-                    <div className='face1'>
+                    <div className='face2'>
                         <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
 
                     </div>
-                    <div className='face2'>
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faCss3Alt} color="#28A4D9"/>
 
                     </div>
                     <div className='face3'>
@@ -67,14 +69,13 @@ const About = () => {
 
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faNode} color="#68A063"/>
+                        <FontAwesomeIcon icon={faNodeJs} color="#68A063"/>
 
                     </div>
                  </div> 
-
             </div>
         </div>
-        <Loader type ="pacman"/>
+        <Loader type ="ball-scale-ripple-multiple" />
         </>
     )
 }
